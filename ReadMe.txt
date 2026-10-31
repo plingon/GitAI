@@ -18,3 +18,12 @@ Config username/email git config --global user.name "preetha" &
  git commit -m "my second commit"
  git log  - show commit history 
  :q!
+
+ git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+SSH git remote add origin git@github.com:LingonPreetha/GitAI.git
+
+git remote add origin https://github.com/LingonPreetha/GitAI.git
+git push -u origin main
